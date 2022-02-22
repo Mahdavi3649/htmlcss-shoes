@@ -3,3 +3,59 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.product {
+  height: 100vh;
+}
+.red-container {
+  background-color: red;
+}
+
+.green-container {
+  background-color: green;
+}
+
+.yellow-container {
+  background-color: yellow;
+}
+
+.photo-container {
+  background-repeat: no-repeat;
+  height: 70vh;
+  background-position: center;
+  background-size: contain;
+  position: relative;
+}
+
+#first-shoe {
+  background-image: url("img/01.png");
+}
+
+#second-shoe {
+  background-image: url("img/02.png");
+}
+#third-shoe {
+  background-image: url("img/03.png");
+}
+
+.yellow-caption > p {
+  color: yellow;
+  position: absolute;
+  right: 39%;
+  top: 96%;
+  text-align: center;
+  font-family: "Space Mono", monospace;
+  font-weight: 900;
+  font-size: 40px;
+}
+
+.green-caption > p {
+  color: green;
+  position: absolute;
+  right: 39%;
+  top: 96%;
+  text-align: center;
+  font-family: "Space Mono", monospace;
+  font-weight: 900;
+  font-size: 40px;
+}
